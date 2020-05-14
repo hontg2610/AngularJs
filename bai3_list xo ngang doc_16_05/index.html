@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en"  >
+	<head>
+	<title> Document  </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 	
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="vendor/angular-material.min.css">
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="1.css">
+</head>
+<body ng-app="myApp" ng-controller="MyController">
+
+<div class="jumbotron text-xs-center">
+	<h1 class="display-3">Demo sử dụng angular cho list view và grid view</h1>
+	<p class="lead">Ứng dụng thay thế cho ứng dụng JQuery</p>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="float-xs-right">
+			<select name="" id="" class="form-control" ng-model="display">
+				<option value="cot">Hiển thị cột</option>
+				<option value="luoi">Hiển thị lưới</option>
+			</select>
+		</div>
+	</div>
+</div>
+
+
+<div class="container {{display}}">
+	<div class="row">
+		<div class="mottin">
+			<div class="vien">
+				<img src="img/tapta.jpg" alt="" class="float-xs-left pr-2" width="200px">
+				<b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique aut in rem ipsam velit doloribus rerum? Ut sint, voluptates ipsum quia, deleniti iure iste quas qui perspiciatis ad, blanditiis adipisci.</b>
+				<small>14/05/2020 - 13:14</small>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque voluptatum, itaque, magnam aut quam numquam porro deserunt repellendus incidunt, tenetur amet similique nostrum eos, excepturi quia quaerat iste tempora.
+				</p>
+			</div>
+		</div>
+
+		<div class="mottin">
+			<div class="vien">
+				<img src="img/cbum.jpg" alt="" class="float-xs-left pr-2" width="200px">
+				<b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique aut in rem ipsam velit doloribus rerum? Ut sint, voluptates ipsum quia, deleniti iure iste quas qui perspiciatis ad, blanditiis adipisci.</b>
+				<small>14/05/2020 - 13:14</small>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque voluptatum, itaque, magnam aut quam numquam porro deserunt repellendus incidunt, tenetur amet similique nostrum eos, excepturi quia quaerat iste tempora.
+				</p>
+			</div>
+		</div>
+
+		<div class="mottin">
+			<div class="vien">
+				<img src="img/tapta.jpg" alt="" class="float-xs-left pr-2" width="200px">
+				<b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique aut in rem ipsam velit doloribus rerum? Ut sint, voluptates ipsum quia, deleniti iure iste quas qui perspiciatis ad, blanditiis adipisci.</b>
+				<small>14/05/2020 - 13:14</small>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque voluptatum, itaque, magnam aut quam numquam porro deserunt repellendus incidunt, tenetur amet similique nostrum eos, excepturi quia quaerat iste tempora.
+				</p>
+			</div>
+		</div>
+
+		<div class="mottin">
+			<div class="vien">
+				<img src="img/cbum.jpg" alt="" class="float-xs-left pr-2" width="200px">
+				<b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique aut in rem ipsam velit doloribus rerum? Ut sint, voluptates ipsum quia, deleniti iure iste quas qui perspiciatis ad, blanditiis adipisci.</b>
+				<small>14/05/2020 - 13:14</small>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque voluptatum, itaque, magnam aut quam numquam porro deserunt repellendus incidunt, tenetur amet similique nostrum eos, excepturi quia quaerat iste tempora.
+				</p>
+			</div>
+		</div>
+
+		<div class="mottin">
+			<div class="vien">
+				<img src="img/tapta.jpg" alt="" class="float-xs-left pr-2" width="200px">
+				<b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique aut in rem ipsam velit doloribus rerum? Ut sint, voluptates ipsum quia, deleniti iure iste quas qui perspiciatis ad, blanditiis adipisci.</b>
+				<small>14/05/2020 - 13:14</small>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque voluptatum, itaque, magnam aut quam numquam porro deserunt repellendus incidunt, tenetur amet similique nostrum eos, excepturi quia quaerat iste tempora.
+				</p>
+			</div>
+		</div>
+
+		<div class="mottin">
+			<div class="vien">
+				<img src="img/cbum.jpg" alt="" class="float-xs-left pr-2" width="200px">
+				<b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique aut in rem ipsam velit doloribus rerum? Ut sint, voluptates ipsum quia, deleniti iure iste quas qui perspiciatis ad, blanditiis adipisci.</b>
+				<small>14/05/2020 - 13:14</small>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque voluptatum, itaque, magnam aut quam numquam porro deserunt repellendus incidunt, tenetur amet similique nostrum eos, excepturi quia quaerat iste tempora.
+				</p>
+			</div>
+		</div>
+
+
+
+	</div>
+</div>
+
+
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>  
+	<script type="text/javascript" src="vendor/angular-1.5.min.js"></script>  
+  	<script type="text/javascript" src="vendor/angular-animate.min.js"></script>
+  	<script type="text/javascript" src="vendor/angular-aria.min.js"></script>
+ 	<script type="text/javascript" src="vendor/angular-messages.min.js"></script>
+ 	<script type="text/javascript" src="vendor/angular-material.min.js"></script>  
+  	<script type="text/javascript" src="1.js"></script>
+</body>
+</html>
