@@ -12,16 +12,31 @@
 <body ng-app="myApp" ng-controller="MyController">
 
 <div class="jumbotron {{mau}}" >
-	<h2>Hay chon gia tri mong muon</h2>
+	<h2>Chọn giá trị mong muốn bằng selecbox</h2>
 	<select class="form-control-success" name="" id="" ng-model ="mau">
 		<option value="vang">Mau Vang</option>
 		<option value="do">Mau Do</option>
 	</select>
+
+	<br>
+	<br>
+	
+	<h2>Chọn giá trị mong muốn bằng nút radio </h2>
+	
+	<label>
+		<input type="radio" value="CAM" name="mausac" ng-model="mau"> Mau Cam <br>
+	</label>
+	<label>
+		<input type="radio" value="XANH" name="mausac" ng-model="mau"> Mau Xanh <br>
+	</label>
+	
+
 </div>
+
 
 <hr>
 	<h2 class="display-3 text-xs-center">
-		Lua chon cua ban la {{mau}}
+		LỰA CHỌN CỦA BẠN LÀ {{mau}}
 	</h2>
 
 
