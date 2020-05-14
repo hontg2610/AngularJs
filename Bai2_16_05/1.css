@@ -1,1 +1,9 @@
 *{margin: 0; padding: 0;}  
+div.vang{
+	background: yellow;
+}
+
+div.do{
+	background: red;
+	color: white;
+}
