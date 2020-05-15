@@ -1,6 +1,7 @@
 ﻿ var app = angular.module('myApp',['ngMaterial']);
  
  app.controller('MyController',  function($scope){
+ 	$scope.giatri = "Nhan vao day de sua"
  	$scope.hienthi = true;
 
  	$scope.doigiatri = function(){
