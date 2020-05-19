@@ -1,0 +1,10 @@
+2017-06-22 23:18:15 8704 [Note] Event Scheduler: Loaded 0 events
+2017-06-22 23:18:15 8704 [Note] C:\Users\Viet_Desk\Desktop\PHP_Code\iwpserver\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.6.25'  socket: ''  port: 7188  MySQL Community Server (GPL)
+2017-06-23 10:36:44 8704 [Note] C:\Users\Viet_Desk\Desktop\PHP_Code\iwpserver\server\mysql\bin\mysqld.exe: Normal shutdown
+
+2017-06-23 10:36:44 8704 [Note] Giving 0 client threads a chance to die gracefully
+2017-06-23 10:36:44 8704 [Note] Event Scheduler: Purging the queue. 0 events
+2017-06-23 10:36:44 8704 [Note] Shutting down slave threads
+2017-06-23 10:36:44 8704 [Note] Forcefully disconnecting 0 remaining clients
+2017-06-23 10:36:44 8704 [Note] Binlog end
